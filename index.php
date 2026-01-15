@@ -8,8 +8,8 @@ include 'includes/header.php';
 <section class="hero">
     <div class="hero-content">
         <div class="entertainment-badge">🎮 100% FREE-TO-PLAY ENTERTAINMENT</div>
-        <h1>Welcome to <?php echo SITE_NAME; ?></h1>
-        <p>Experience the thrill of casino gaming with zero real money involved</p>
+        <h1><span class="highlight">Experience Gaming</span><br>Like Never Before</h1>
+        <p>We create vibrant, handcrafted social games designed purely for joy and entertainment. No real money. No financial transactions. Just a completely risk-free space filled with good vibes and play.</p>
         
         <div class="entertainment-message">
             <strong>⚠️ IMPORTANT:</strong> This is a 100% free-to-play entertainment platform. Virtual coins have NO real money value. All games are for entertainment purposes only. Must be 18+ to play.
@@ -22,50 +22,60 @@ include 'includes/header.php';
 
 <!-- Featured Games Section -->
 <section>
-    <h2 style="text-align: center; margin-bottom: 3rem; font-size: 2.5rem; color: var(--primary-color);">
-        Featured Games
+    <h2 class="section-title">
+        <span class="highlight">Top Awesome</span><br>Games
     </h2>
+    <p class="section-subtitle">Experience the thrill of premium casino games. Free-to-play entertainment with stunning visuals and authentic gameplay.</p>
 
     <div class="grid grid-4">
         <!-- Mines Game -->
         <div class="card game-card">
             <img src="<?php echo SITE_URL; ?>/assets/images/game_mines.jpg" alt="Mines Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
             <h3>Mines</h3>
+            <span class="game-limit">PLAY LIMIT</span>
+            <span class="game-free">Free Play</span>
             <p>Avoid the mines and reveal safe tiles to win big!</p>
-            <a href="games/mines.php" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Mines</a>
+            <a href="games/mines.php" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Now</a>
         </div>
 
         <!-- Dice Game -->
         <div class="card game-card">
             <img src="<?php echo SITE_URL; ?>/assets/images/game_dice.jpg" alt="Dice Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
             <h3>Dice</h3>
+            <span class="game-limit">PLAY LIMIT</span>
+            <span class="game-free">Free Play</span>
             <p>Roll the dice and predict the outcome for instant wins!</p>
-            <a href="games/dice.php" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Dice</a>
+            <a href="games/dice.php" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Now</a>
         </div>
 
         <!-- Chicken Game -->
         <div class="card game-card">
             <img src="<?php echo SITE_URL; ?>/assets/images/live_casino_table.jpg" alt="Chicken Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
             <h3>Chicken</h3>
+            <span class="game-limit">PLAY LIMIT</span>
+            <span class="game-free">Free Play</span>
             <p>Guide the chicken to victory and collect your rewards!</p>
-            <a href="games/chicken.php" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Chicken</a>
+            <a href="games/chicken.php" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Now</a>
         </div>
 
         <!-- Plinko Game -->
         <div class="card game-card">
             <img src="<?php echo SITE_URL; ?>/assets/images/game_plinko.jpg" alt="Plinko Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
             <h3>Plinko</h3>
+            <span class="game-limit">PLAY LIMIT</span>
+            <span class="game-free">Free Play</span>
             <p>Drop the ball and watch it bounce to amazing prizes!</p>
-            <a href="games/plinko.php" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Plinko</a>
+            <a href="games/plinko.php" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Now</a>
         </div>
     </div>
 </section>
 
 <!-- Why Choose Us Section -->
 <section style="margin-top: 4rem;">
-    <h2 style="text-align: center; margin-bottom: 3rem; font-size: 2.5rem; color: var(--primary-color);">
-        Why Choose <?php echo SITE_NAME; ?>?
+    <h2 class="section-title">
+        <span class="highlight">Why Play Our</span><br>Casino
     </h2>
+    <p class="section-subtitle"><?php echo SITE_NAME; ?> offers a premium social gaming experience with no real money involved. Enjoy authentic casino entertainment in a safe, secure environment designed for pure fun and excitement.</p>
 
     <div class="grid grid-3">
         <div class="card">
