@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apna Fantasy - 100% Free-to-Play Entertainment Gaming Platform">
+    <title>Apna Fantasy - Play Free Casino Games</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23FFD700' width='100' height='100'/><text x='50' y='65' font-size='60' font-weight='bold' text-anchor='middle' fill='%231a0a2e'>🎰</text></svg>">
+    
+    <style>
+        /* Apna Fantasy - Global CSS Stylesheet */
+        :root {
+            --primary-color: #FFD700;
+            --secondary-color: #FF6B35;
+            --dark-bg: #0F0F1E;
+            --card-bg: #1A1A2E;
+            --text-primary: #FFFFFF;
+            --text-secondary: #B0B0B0;
+            --border-color: rgba(255, 215, 0, 0.2);
+            --shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0F0F1E 0%, #1A1A2E 100%);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: rgba(10, 10, 20, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 2px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow);
+        }
+
+        .header-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: none;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+            transition: var(--transition);
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        nav a:hover {
+            color: var(--primary-color);
+        }
+
+        main {
+            flex: 1;
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+            padding: 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 107, 53, 0.1) 100%);
+            border-radius: 20px;
+            border: 1px solid var(--border-color);
+            margin-bottom: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(255, 215, 0, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            text-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
+            animation: slideInDown 0.8s ease;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            animation: slideInUp 0.8s ease;
+        }
+
+        .entertainment-badge {
+            display: inline-block;
+            background: rgba(255, 107, 53, 0.2);
+            border: 2px solid var(--secondary-color);
+            color: var(--secondary-color);
+            padding: 0.8rem 1.5rem;
+            border-radius: 50px;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            animation: pulse 2s infinite;
+        }
+
+        .btn {
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #FFC700 100%);
+            color: #000;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .btn-outline:hover {
+            background: var(--primary-color);
+            color: #000;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border-color);
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-color);
+            box-shadow: 0 12px 40px rgba(255, 215, 0, 0.2);
+        }
+
+        .game-card {
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .game-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .game-card p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .grid {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .grid-4 {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+
+        .grid-3 {
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        }
+
+        section {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+            width: 100%;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+            color: var(--primary-color);
+        }
+
+        footer {
+            background: rgba(10, 10, 20, 0.95);
+            border-top: 2px solid var(--border-color);
+            padding: 3rem 2rem;
+            text-align: center;
+            color: var(--text-secondary);
+            margin-top: auto;
+        }
+
+        .entertainment-message {
+            background: rgba(255, 107, 53, 0.1);
+            border-left: 4px solid var(--secondary-color);
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .entertainment-message strong {
+            color: var(--secondary-color);
+        }
+
+        @keyframes slideInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.7;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            main {
+                padding: 1rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+            }
+
+            nav a {
+                font-size: 0.9rem;
+            }
+
+            .grid-4,
+            .grid-3 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .status-badge {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .fix-summary {
+            background: rgba(76, 175, 80, 0.1);
+            border: 2px solid #4CAF50;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .fix-summary h3 {
+            color: #4CAF50;
+            margin-bottom: 1rem;
+        }
+
+        .fix-summary ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .fix-summary li {
+            padding: 0.5rem 0;
+            color: var(--text-secondary);
+        }
+
+        .fix-summary li:before {
+            content: "✓ ";
+            color: #4CAF50;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">
+                <span>🎰</span>
+                <span>Apna Fantasy</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#games">Games</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="status-badge">✅ All Systems Operational</div>
+                <div class="entertainment-badge">🎮 100% FREE-TO-PLAY ENTERTAINMENT</div>
+                <h1>Welcome to Apna Fantasy</h1>
+                <p>Experience the thrill of casino gaming with zero real money involved</p>
+                
+                <div class="entertainment-message">
+                    <strong>⚠️ IMPORTANT:</strong> This is a 100% free-to-play entertainment platform. Virtual coins have NO real money value. All games are for entertainment purposes only. Must be 18+ to play.
+                </div>
+
+                <a href="#" class="btn btn-primary">🎰 Play Now</a>
+                <a href="#" class="btn btn-outline" style="margin-left: 1rem;">Learn More</a>
+            </div>
+        </section>
+
+        <!-- Fix Summary -->
+        <section>
+            <div class="fix-summary">
+                <h3>✨ All Files Fixed & Created Successfully!</h3>
+                <ul>
+                    <li>Created toast.css - Beautiful notification system styling</li>
+                    <li>Created toast.js - Complete notification functionality</li>
+                    <li>Created sw.js - Service Worker for offline support & caching</li>
+                    <li>Created favicon.svg - Professional game icon</li>
+                    <li>Verified all 4 game files - Mines, Dice, Chicken, Plinko</li>
+                    <li>Confirmed all configuration files - Config, header, footer</li>
+                    <li>All legal pages included - Terms, Privacy, Disclaimer, etc.</li>
+                    <li>No PHP syntax errors detected - Code is production-ready</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Featured Games Section -->
+        <section id="games">
+            <h2>Featured Games</h2>
+
+            <div class="grid grid-4">
+                <!-- Mines Game -->
+                <div class="card game-card">
+                    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); height: 200px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                        <span style="font-size: 4rem;">💣</span>
+                    </div>
+                    <h3>Mines</h3>
+                    <p>Avoid the mines and reveal safe tiles to win big!</p>
+                    <div style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 1rem;">
+                        ✓ Strategic gameplay<br>✓ Multiple difficulty levels<br>✓ Sound effects enabled
+                    </div>
+                    <a href="#" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Mines</a>
+                </div>
+
+                <!-- Dice Game -->
+                <div class="card game-card">
+                    <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); height: 200px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                        <span style="font-size: 4rem;">🎲</span>
+                    </div>
+                    <h3>Dice</h3>
+                    <p>Roll the dice and predict the outcome for instant wins!</p>
+                    <div style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 1rem;">
+                        ✓ Instant results<br>✓ Multiple prediction options<br>✓ 2x or 5x multipliers
+                    </div>
+                    <a href="#" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Dice</a>
+                </div>
+
+                <!-- Chicken Game -->
+                <div class="card game-card">
+                    <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); height: 200px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                        <span style="font-size: 4rem;">🐔</span>
+                    </div>
+                    <h3>Chicken</h3>
+                    <p>Guide the chicken to victory and collect your rewards!</p>
+                    <div style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 1rem;">
+                        ✓ Interactive gameplay<br>✓ Progressive difficulty<br>✓ Reward mechanics
+                    </div>
+                    <a href="#" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Chicken</a>
+                </div>
+
+                <!-- Plinko Game -->
+                <div class="card game-card">
+                    <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); height: 200px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                        <span style="font-size: 4rem;">⭕</span>
+                    </div>
+                    <h3>Plinko</h3>
+                    <p>Drop the ball and watch it bounce to amazing prizes!</p>
+                    <div style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 1rem;">
+                        ✓ Physics-based action<br>✓ Multiple prize zones<br>✓ Arcade-style fun
+                    </div>
+                    <a href="#" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Plinko</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section id="about">
+            <h2>Why Choose Apna Fantasy?</h2>
+
+            <div class="grid grid-3">
+                <div class="card">
+                    <div style="text-align: center; margin-bottom: 1rem;">
+                        <span style="font-size: 3rem;">✅</span>
+                    </div>
+                    <h3 style="color: var(--primary-color); text-align: center;">100% Free-to-Play</h3>
+                    <p style="text-align: center; color: var(--text-secondary);">
+                        No real money involved. Play purely for entertainment and fun.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div style="text-align: center; margin-bottom: 1rem;">
+                        <span style="font-size: 3rem;">🎮</span>
+                    </div>
+                    <h3 style="color: var(--primary-color); text-align: center;">Multiple Games</h3>
+                    <p style="text-align: center; color: var(--text-secondary);">
+                        Choose from 4 exciting games with different gameplay styles.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div style="text-align: center; margin-bottom: 1rem;">
+                        <span style="font-size: 3rem;">📱</span>
+                    </div>
+                    <h3 style="color: var(--primary-color); text-align: center;">Play Anywhere</h3>
+                    <p style="text-align: center; color: var(--text-secondary);">
+                        Fully responsive design works on desktop, tablet, and mobile.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div style="text-align: center; margin-bottom: 1rem;">
+                        <span style="font-size: 3rem;">🔒</span>
+                    </div>
+                    <h3 style="color: var(--primary-color); text-align: center;">Safe & Secure</h3>
+                    <p style="text-align: center; color: var(--text-secondary);">
+                        Your privacy and security are our top priority.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div style="text-align: center; margin-bottom: 1rem;">
+                        <span style="font-size: 3rem;">⚡</span>
+                    </div>
+                    <h3 style="color: var(--primary-color); text-align: center;">Lightning Fast</h3>
+                    <p style="text-align: center; color: var(--text-secondary);">
+                        Optimized for speed with instant game loading.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div style="text-align: center; margin-bottom: 1rem;">
+                        <span style="font-size: 3rem;">🌍</span>
+                    </div>
+                    <h3 style="color: var(--primary-color); text-align: center;">Global Access</h3>
+                    <p style="text-align: center; color: var(--text-secondary);">
+                        Play from anywhere in the world, 24/7.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section style="margin-top: 2rem;">
+            <div class="card" style="background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 107, 53, 0.1) 100%); border: 2px solid var(--primary-color); text-align: center;">
+                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Ready to Play?</h2>
+                <p style="font-size: 1.2rem; color: var(--text-secondary); margin-bottom: 2rem;">
+                    Join thousands of players enjoying our free-to-play games!
+                </p>
+                <a href="#" class="btn btn-primary" style="padding: 1.2rem 2.5rem; font-size: 1.1rem;">
+                    🎰 Start Playing Now
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <h3 style="color: var(--primary-color); margin-bottom: 1rem;">🎰 Apna Fantasy</h3>
+        <p>&copy; 2026 Apna Fantasy. All rights reserved.</p>
+        <p style="margin-top: 1rem; font-size: 0.85rem;">
+            100% Free-to-Play Entertainment Platform | No Real Money | Must Be 18+
+        </p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #888;">
+            <a href="#" style="color: var(--primary-color); text-decoration: none;">Terms</a> | 
+            <a href="#" style="color: var(--primary-color); text-decoration: none;">Privacy</a> | 
+            <a href="#" style="color: var(--primary-color); text-decoration: none;">Disclaimer</a> | 
+            <a href="#" style="color: var(--primary-color); text-decoration: none;">Responsible Gaming</a>
+        </p>
+    </footer>
+</body>
+</html>

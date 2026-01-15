@@ -1,0 +1,60 @@
+# Git ignore file for Apna Fantasy
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Cache files
+*.cache
+__pycache__/
+
+# Node modules (if using any build tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+build/
+*.min.js
+*.min.css
+
+# Session files
+*.session
+
+# Local testing
+local-testing/
+test-results/
+
+# Backup files
+*.backup
+*.orig
+
+# macOS
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+$RECYCLE.BIN/
