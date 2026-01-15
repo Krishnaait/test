@@ -1,0 +1,15 @@
+# Apna Fantasy - Robots.txt
+# Version: 1.0
+# Last Updated: January 16, 2026
+
+User-agent: *
+Allow: /
+Disallow: /includes/
+Disallow: /assets/js/
+Disallow: *.php$
+
+# Sitemap location
+Sitemap: https://test-production-9b93.up.railway.app/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10

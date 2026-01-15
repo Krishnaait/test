@@ -1,0 +1,217 @@
+/* Apna Fantasy - CSS Variables
+ * Version: 1.0
+ * Last Updated: January 16, 2026
+ * 
+ * This file contains all CSS custom properties (variables)
+ * for consistent theming across the entire website.
+ */
+
+:root {
+    /* ============================================
+       COLOR PALETTE
+       ============================================ */
+    
+    /* Primary Colors */
+    --primary-color: #FFD700;           /* Gold */
+    --primary-light: #FFE44D;           /* Light Gold */
+    --primary-dark: #FFC700;            /* Dark Gold */
+    
+    /* Secondary Colors */
+    --secondary-color: #FF6B35;         /* Orange Red */
+    --secondary-light: #FF8555;         /* Light Orange */
+    --secondary-dark: #FF5722;          /* Dark Orange */
+    
+    /* Background Colors */
+    --dark-bg: #0F0F1E;                 /* Dark Navy */
+    --card-bg: #1A1A2E;                 /* Card Background */
+    --modal-bg: #16213E;                /* Modal Background */
+    --overlay-bg: rgba(0, 0, 0, 0.8);   /* Overlay Background */
+    
+    /* Text Colors */
+    --text-primary: #FFFFFF;            /* White */
+    --text-secondary: #B0B0B0;          /* Light Gray */
+    --text-muted: #808080;              /* Gray */
+    --text-dark: #000000;               /* Black */
+    
+    /* Border Colors */
+    --border-color: rgba(255, 215, 0, 0.2);
+    --border-light: rgba(255, 255, 255, 0.1);
+    --border-dark: rgba(0, 0, 0, 0.2);
+    
+    /* Status Colors */
+    --success-color: #28a745;           /* Green */
+    --warning-color: #ffc107;           /* Yellow */
+    --danger-color: #dc3545;            /* Red */
+    --info-color: #17a2b8;              /* Blue */
+    
+    /* ============================================
+       SPACING
+       ============================================ */
+    --spacing-xs: 0.25rem;              /* 4px */
+    --spacing-sm: 0.5rem;               /* 8px */
+    --spacing-md: 1rem;                 /* 16px */
+    --spacing-lg: 1.5rem;               /* 24px */
+    --spacing-xl: 2rem;                 /* 32px */
+    --spacing-2xl: 3rem;                /* 48px */
+    --spacing-3xl: 4rem;                /* 64px */
+    
+    /* ============================================
+       TYPOGRAPHY
+       ============================================ */
+    --font-family-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-family-secondary: Arial, Helvetica, sans-serif;
+    --font-family-mono: 'Courier New', Courier, monospace;
+    
+    /* Font Sizes */
+    --font-size-xs: 0.75rem;            /* 12px */
+    --font-size-sm: 0.875rem;           /* 14px */
+    --font-size-base: 1rem;             /* 16px */
+    --font-size-lg: 1.125rem;           /* 18px */
+    --font-size-xl: 1.25rem;            /* 20px */
+    --font-size-2xl: 1.5rem;            /* 24px */
+    --font-size-3xl: 1.875rem;          /* 30px */
+    --font-size-4xl: 2.25rem;           /* 36px */
+    --font-size-5xl: 3rem;              /* 48px */
+    
+    /* Font Weights */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    
+    /* Line Heights */
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.6;
+    --line-height-relaxed: 1.8;
+    --line-height-loose: 2;
+    
+    /* ============================================
+       LAYOUT
+       ============================================ */
+    --container-max-width: 1400px;
+    --container-padding: 2rem;
+    --header-height: 70px;
+    --footer-height: auto;
+    
+    /* ============================================
+       BORDER RADIUS
+       ============================================ */
+    --radius-sm: 5px;
+    --radius-md: 10px;
+    --radius-lg: 15px;
+    --radius-xl: 20px;
+    --radius-full: 9999px;
+    
+    /* ============================================
+       SHADOWS
+       ============================================ */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.3);
+    --shadow-xl: 0 12px 40px rgba(0, 0, 0, 0.4);
+    --shadow-glow: 0 0 20px rgba(255, 215, 0, 0.3);
+    --shadow-glow-strong: 0 0 40px rgba(255, 215, 0, 0.6);
+    
+    /* ============================================
+       TRANSITIONS
+       ============================================ */
+    --transition-fast: all 0.15s ease;
+    --transition-normal: all 0.3s ease;
+    --transition-slow: all 0.5s ease;
+    
+    /* ============================================
+       Z-INDEX LAYERS
+       ============================================ */
+    --z-index-dropdown: 1000;
+    --z-index-sticky: 1020;
+    --z-index-fixed: 1030;
+    --z-index-modal-backdrop: 1040;
+    --z-index-modal: 1050;
+    --z-index-popover: 1060;
+    --z-index-tooltip: 1070;
+    
+    /* ============================================
+       BREAKPOINTS (for reference in JS)
+       ============================================ */
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-xxl: 1400px;
+    
+    /* ============================================
+       GRADIENTS
+       ============================================ */
+    --gradient-primary: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    --gradient-secondary: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-dark) 100%);
+    --gradient-hero: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 107, 53, 0.1) 100%);
+    --gradient-card: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+    --gradient-dark: linear-gradient(135deg, #0F0F1E 0%, #1A1A2E 100%);
+    
+    /* ============================================
+       GAME SPECIFIC COLORS
+       ============================================ */
+    --game-mines: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --game-dice: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --game-chicken: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    --game-plinko: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    
+    /* ============================================
+       ANIMATION DURATIONS
+       ============================================ */
+    --animation-duration-fast: 0.2s;
+    --animation-duration-normal: 0.5s;
+    --animation-duration-slow: 0.8s;
+    --animation-duration-slower: 1s;
+}
+
+/* ============================================
+   DARK MODE OVERRIDES (if needed in future)
+   ============================================ */
+[data-theme="dark"] {
+    --dark-bg: #000000;
+    --card-bg: #0F0F1E;
+    --text-secondary: #999999;
+}
+
+/* ============================================
+   LIGHT MODE (if needed in future)
+   ============================================ */
+[data-theme="light"] {
+    --dark-bg: #FFFFFF;
+    --card-bg: #F5F5F5;
+    --text-primary: #000000;
+    --text-secondary: #666666;
+    --border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* ============================================
+   HIGH CONTRAST MODE (for accessibility)
+   ============================================ */
+@media (prefers-contrast: high) {
+    :root {
+        --primary-color: #FFFF00;
+        --secondary-color: #FF0000;
+        --text-primary: #FFFFFF;
+        --text-secondary: #FFFFFF;
+        --border-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+/* ============================================
+   REDUCED MOTION (for accessibility)
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+    :root {
+        --transition-fast: none;
+        --transition-normal: none;
+        --transition-slow: none;
+        --animation-duration-fast: 0s;
+        --animation-duration-normal: 0s;
+        --animation-duration-slow: 0s;
+        --animation-duration-slower: 0s;
+    }
+}

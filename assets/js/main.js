@@ -5,7 +5,7 @@
 function toggleMenu() {
     const navMenu = document.getElementById('navMenu');
     if (navMenu) {
-        navMenu.style.display = navMenu.style.display === 'none' ? 'flex' : 'none';
+        navMenu.classList.toggle('active');
     }
 }
 
@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
     navLinks.forEach(link => {
         link.addEventListener('click', function() {
             const navMenu = document.getElementById('navMenu');
-            if (navMenu) {
-                navMenu.style.display = 'none';
+            if (navMenu && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
             }
         });
     });
