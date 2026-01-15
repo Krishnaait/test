@@ -14,12 +14,7 @@ include '../includes/header.php';
     <div class="grid grid-2">
         <!-- Mines Game -->
         <div class="card game-card">
-            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); height: 250px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem; position: relative; overflow: hidden;">
-                <span style="font-size: 5rem; z-index: 1;">💣</span>
-                <div style="position: absolute; top: 10px; right: 10px; background: var(--secondary-color); color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.8rem; font-weight: bold;">
-                    ⭐ POPULAR
-                </div>
-            </div>
+            <img src="<?php echo SITE_URL; ?>/assets/images/game_mines.jpg" alt="Mines Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1.5rem;">
             <h3 style="color: var(--primary-color); font-size: 1.5rem;">Mines</h3>
             <p style="color: var(--text-secondary); margin-bottom: 1rem;">
                 Avoid the mines and reveal safe tiles to win big! Choose your risk level and strategy.
@@ -37,9 +32,7 @@ include '../includes/header.php';
 
         <!-- Dice Game -->
         <div class="card game-card">
-            <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); height: 250px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
-                <span style="font-size: 5rem;">🎲</span>
-            </div>
+            <img src="<?php echo SITE_URL; ?>/assets/images/game_dice.jpg" alt="Dice Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1.5rem;">
             <h3 style="color: var(--primary-color); font-size: 1.5rem;">Dice</h3>
             <p style="color: var(--text-secondary); margin-bottom: 1rem;">
                 Roll the dice and predict the outcome for instant wins! Simple yet thrilling gameplay.
@@ -57,9 +50,7 @@ include '../includes/header.php';
 
         <!-- Chicken Game -->
         <div class="card game-card">
-            <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); height: 250px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
-                <span style="font-size: 5rem;">🐔</span>
-            </div>
+            <img src="<?php echo SITE_URL; ?>/assets/images/roulette_table_close_up.jpg" alt="Chicken Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1.5rem;">
             <h3 style="color: var(--primary-color); font-size: 1.5rem;">Chicken</h3>
             <p style="color: var(--text-secondary); margin-bottom: 1rem;">
                 Guide the chicken to victory and collect your rewards! Fun and engaging gameplay.
@@ -77,9 +68,7 @@ include '../includes/header.php';
 
         <!-- Plinko Game -->
         <div class="card game-card">
-            <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); height: 250px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
-                <span style="font-size: 5rem;">⭕</span>
-            </div>
+            <img src="<?php echo SITE_URL; ?>/assets/images/game_plinko.jpg" alt="Plinko Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1.5rem;">
             <h3 style="color: var(--primary-color); font-size: 1.5rem;">Plinko</h3>
             <p style="color: var(--text-secondary); margin-bottom: 1rem;">
                 Drop the ball and watch it bounce to amazing prizes! Classic arcade fun.

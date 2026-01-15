@@ -29,9 +29,7 @@ include 'includes/header.php';
     <div class="grid grid-4">
         <!-- Mines Game -->
         <div class="card game-card">
-            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); height: 200px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
-                <span style="font-size: 4rem;">💣</span>
-            </div>
+            <img src="<?php echo SITE_URL; ?>/assets/images/game_mines.jpg" alt="Mines Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
             <h3>Mines</h3>
             <p>Avoid the mines and reveal safe tiles to win big!</p>
             <a href="games/mines.php" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Mines</a>
@@ -39,9 +37,7 @@ include 'includes/header.php';
 
         <!-- Dice Game -->
         <div class="card game-card">
-            <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); height: 200px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
-                <span style="font-size: 4rem;">🎲</span>
-            </div>
+            <img src="<?php echo SITE_URL; ?>/assets/images/game_dice.jpg" alt="Dice Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
             <h3>Dice</h3>
             <p>Roll the dice and predict the outcome for instant wins!</p>
             <a href="games/dice.php" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Dice</a>
@@ -49,9 +45,7 @@ include 'includes/header.php';
 
         <!-- Chicken Game -->
         <div class="card game-card">
-            <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); height: 200px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
-                <span style="font-size: 4rem;">🐔</span>
-            </div>
+            <img src="<?php echo SITE_URL; ?>/assets/images/live_casino_table.jpg" alt="Chicken Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
             <h3>Chicken</h3>
             <p>Guide the chicken to victory and collect your rewards!</p>
             <a href="games/chicken.php" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Chicken</a>
@@ -59,9 +53,7 @@ include 'includes/header.php';
 
         <!-- Plinko Game -->
         <div class="card game-card">
-            <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); height: 200px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
-                <span style="font-size: 4rem;">⭕</span>
-            </div>
+            <img src="<?php echo SITE_URL; ?>/assets/images/game_plinko.jpg" alt="Plinko Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
             <h3>Plinko</h3>
             <p>Drop the ball and watch it bounce to amazing prizes!</p>
             <a href="games/plinko.php" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Play Plinko</a>

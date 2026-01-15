@@ -11,6 +11,10 @@ include '../includes/header.php';
         <strong>⚠️ IMPORTANT:</strong> This is a 100% free-to-play entertainment platform. Virtual coins have NO real money value. All games are for entertainment purposes only. Must be 18+ to play.
     </div>
 
+    <div style="margin-bottom: 2rem; border-radius: 20px; overflow: hidden; border: 3px solid var(--gold-primary); box-shadow: var(--shadow-gold);">
+        <img src="<?php echo SITE_URL; ?>/assets/images/casino_chandelier.jpg" alt="Luxury Casino" style="width: 100%; height: 400px; object-fit: cover;">
+    </div>
+
     <div class="card" style="margin-bottom: 2rem;">
         <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Our Mission</h2>
         <p style="color: var(--text-secondary); font-size: 1.1rem; line-height: 1.8;">
