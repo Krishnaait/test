@@ -956,3 +956,49 @@ input:focus, textarea:focus, select:focus {
     margin: 0.5rem 0;
 }
 
+
+/* ============================================================
+   LOGO IMAGES
+============================================================ */
+.logo-image {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer-logo-image {
+    height: 60px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+/* ============================================================
+   LOGO IMAGES
+============================================================ */
+.logo-image {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer-logo-image {
+    height: 60px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}

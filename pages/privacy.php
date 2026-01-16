@@ -1,4 +1,5 @@
 <?php
+// Privacy Policy Page - Updated January 16, 2026
 require_once '../includes/config.php';
 $page_title = "Privacy Policy";
 include '../includes/header.php';

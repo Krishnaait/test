@@ -7,7 +7,7 @@
                 <!-- Company Info Section -->
                 <div class="footer-section footer-about">
                     <div class="footer-logo">
-                        <span class="logo-icon">🎰</span>
+                        <img src="<?php echo SITE_URL; ?>/assets/images/logo.png" alt="<?php echo SITE_NAME; ?>" class="footer-logo-image">
                         <h3><?php echo SITE_NAME; ?></h3>
                     </div>
                     <p class="footer-description">
