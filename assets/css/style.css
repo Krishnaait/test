@@ -868,3 +868,91 @@ input:focus, textarea:focus, select:focus {
         margin: 1rem;
     }
 }
+
+/* ============================================================
+   STATIC PAGES - CONSISTENT LAYOUT
+============================================================ */
+.page-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.page-header h1 {
+    color: var(--accent-yellow);
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.page-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.page-card {
+    background: rgba(26, 26, 46, 0.6);
+    border: 2px dashed var(--accent-yellow);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.page-card h2 {
+    color: var(--accent-yellow);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.page-card h3 {
+    color: var(--accent-yellow);
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.page-card p {
+    color: #d0d0d0;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.page-card ul, .page-card ol {
+    color: #d0d0d0;
+    margin-left: 2rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.page-card li {
+    margin-bottom: 0.5rem;
+}
+
+.page-card strong {
+    color: var(--accent-yellow);
+}
+
+.page-disclaimer {
+    background: rgba(255, 184, 0, 0.1);
+    border-left: 4px solid var(--accent-yellow);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+
+.page-disclaimer strong {
+    color: var(--accent-yellow);
+}
+
+.contact-info-box {
+    background: rgba(26, 26, 46, 0.8);
+    border: 2px solid var(--accent-yellow);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-info-box p {
+    color: #d0d0d0;
+    margin: 0.5rem 0;
+}
+

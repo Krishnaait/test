@@ -4,39 +4,39 @@ $page_title = "Privacy Policy";
 include '../includes/header.php';
 ?>
 
-<section>
-    <h1 style="text-align: center; margin-bottom: 1rem; color: var(--primary-color);">Privacy Policy</h1>
+<section class="page-content">
+    <div class="page-header"><h1>Privacy Policy</h1></div>
     
-    <div class="entertainment-message" style="margin-bottom: 2rem;">
+    <div class="page-disclaimer">
         <strong>⚠️ IMPORTANT:</strong> This is a 100% free-to-play entertainment platform. Virtual coins have NO real money value. All games are for entertainment purposes only. Must be 18+ to play.
     </div>
 
-    <div class="card">
-        <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+    <div class="page-card">
+        <p >
             <strong>Last Updated:</strong> <?php echo get_last_updated(); ?>
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">1. Introduction</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >1. Introduction</h3>
+        <p >
             <?php echo COMPANY_NAME; ?> ("we", "us", "our") operates the <?php echo SITE_NAME; ?> platform. This Privacy Policy explains how we collect, use, disclose, and safeguard your information.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">2. Information We Collect</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >2. Information We Collect</h3>
+        <p >
             Since our platform does not require registration or login, we collect minimal information:
         </p>
-        <ul style="color: var(--text-secondary); margin-left: 2rem; line-height: 1.8;">
+        <ul >
             <li><strong>Age Verification:</strong> Confirmation that you are 18+ (stored in session)</li>
             <li><strong>Contact Information:</strong> Only if you voluntarily submit the contact form (name, email, message)</li>
             <li><strong>Usage Data:</strong> Browser type, IP address, pages visited (for analytics)</li>
             <li><strong>Cookies:</strong> To enhance user experience and remember preferences</li>
         </ul>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">3. How We Use Your Information</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >3. How We Use Your Information</h3>
+        <p >
             We use collected information to:
         </p>
-        <ul style="color: var(--text-secondary); margin-left: 2rem; line-height: 1.8;">
+        <ul >
             <li>Verify age compliance (18+ requirement)</li>
             <li>Respond to your inquiries and contact requests</li>
             <li>Improve platform performance and user experience</li>
@@ -44,22 +44,22 @@ include '../includes/header.php';
             <li>Comply with legal obligations</li>
         </ul>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">4. Data Security</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >4. Data Security</h3>
+        <p >
             We implement industry-standard security measures to protect your information, including:
         </p>
-        <ul style="color: var(--text-secondary); margin-left: 2rem; line-height: 1.8;">
+        <ul >
             <li>SSL/TLS encryption for data transmission</li>
             <li>Secure server infrastructure</li>
             <li>Regular security audits</li>
             <li>Limited data retention</li>
         </ul>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">5. Cookies and Tracking</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >5. Cookies and Tracking</h3>
+        <p >
             We use cookies to:
         </p>
-        <ul style="color: var(--text-secondary); margin-left: 2rem; line-height: 1.8;">
+        <ul >
             <li>Remember your age verification status</li>
             <li>Store user preferences</li>
             <li>Analyze website traffic (Google Analytics)</li>
@@ -69,11 +69,11 @@ include '../includes/header.php';
             You can control cookies through your browser settings. Disabling cookies may affect platform functionality.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">6. Third-Party Services</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >6. Third-Party Services</h3>
+        <p >
             We may use third-party services for analytics and advertising:
         </p>
-        <ul style="color: var(--text-secondary); margin-left: 2rem; line-height: 1.8;">
+        <ul >
             <li><strong>Google Analytics:</strong> For website traffic analysis</li>
             <li><strong>Google Ads:</strong> For advertising purposes</li>
         </ul>
@@ -81,44 +81,44 @@ include '../includes/header.php';
             These services have their own privacy policies. We recommend reviewing them.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">7. Data Retention</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >7. Data Retention</h3>
+        <p >
             We retain information only as long as necessary:
         </p>
-        <ul style="color: var(--text-secondary); margin-left: 2rem; line-height: 1.8;">
+        <ul >
             <li>Age verification: Session duration only</li>
             <li>Contact form data: 30 days (or as required by law)</li>
             <li>Analytics data: 26 months</li>
         </ul>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">8. Your Rights</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >8. Your Rights</h3>
+        <p >
             You have the right to:
         </p>
-        <ul style="color: var(--text-secondary); margin-left: 2rem; line-height: 1.8;">
+        <ul >
             <li>Access your personal information</li>
             <li>Request correction of inaccurate data</li>
             <li>Request deletion of your data</li>
             <li>Opt-out of analytics tracking</li>
         </ul>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">9. GDPR Compliance</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >9. GDPR Compliance</h3>
+        <p >
             We comply with the General Data Protection Regulation (GDPR). If you are in the EU, you have additional rights regarding your personal data. Contact us for more information.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">10. Children's Privacy</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >10. Children's Privacy</h3>
+        <p >
             Our platform is not intended for children under 18. We do not knowingly collect information from children. If we become aware of such collection, we will take immediate action to delete the information.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">11. Changes to Privacy Policy</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >11. Changes to Privacy Policy</h3>
+        <p >
             We may update this Privacy Policy periodically. Changes will be posted on this page with an updated "Last Updated" date. Your continued use of the platform constitutes acceptance of the updated policy.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">12. Contact Us</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >12. Contact Us</h3>
+        <p >
             For privacy-related questions or requests, please contact us at:
         </p>
         <p style="color: var(--text-secondary);">

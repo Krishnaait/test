@@ -4,19 +4,19 @@ $page_title = "Disclaimer";
 include '../includes/header.php';
 ?>
 
-<section>
-    <h1 style="text-align: center; margin-bottom: 1rem; color: var(--primary-color);">Disclaimer</h1>
+<section class="page-content">
+    <h1 class="page-header">Disclaimer</h1>
     
-    <div class="entertainment-message" style="margin-bottom: 2rem;">
+    <div class="page-disclaimer">
         <strong>⚠️ IMPORTANT:</strong> This is a 100% free-to-play entertainment platform. Virtual coins have NO real money value. All games are for entertainment purposes only. Must be 18+ to play.
     </div>
 
-    <div class="card">
-        <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+    <div class="page-card">
+        <p >
             <strong>Last Updated:</strong> <?php echo get_last_updated(); ?>
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">Age & Responsible Gaming Disclaimer</h3>
+        <h3 >Age & Responsible Gaming Disclaimer</h3>
         <div style="background: rgba(255, 107, 53, 0.2); border: 2px solid var(--secondary-color); padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem;">
             <p style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
                 <strong style="color: var(--secondary-color); font-size: 1.1rem;">⚠️ CRITICAL NOTICE:</strong><br><br>
@@ -25,16 +25,16 @@ include '../includes/header.php';
             </p>
         </div>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">1. Entertainment-Only Nature</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >1. Entertainment-Only Nature</h3>
+        <p >
             <?php echo SITE_NAME; ?> is explicitly designed as an entertainment platform. All games, features, and content are provided solely for entertainment purposes. This is not gambling, and no real money is involved in any way.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">2. Virtual Coins Have No Real Value</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >2. Virtual Coins Have No Real Value</h3>
+        <p >
             Virtual coins used on this platform have absolutely NO real money value. They cannot be:
         </p>
-        <ul style="color: var(--text-secondary); margin-left: 2rem; line-height: 1.8;">
+        <ul >
             <li>Exchanged for real money</li>
             <li>Sold to other users</li>
             <li>Cashed out or withdrawn</li>
@@ -42,36 +42,36 @@ include '../includes/header.php';
             <li>Converted to any form of currency</li>
         </ul>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">3. No Gambling</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >3. No Gambling</h3>
+        <p >
             This platform is NOT gambling. While games may involve chance elements, they are purely for entertainment. There are no real stakes, no real winnings, and no real losses. Virtual coins cannot be converted to real money under any circumstances.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">4. Random Outcomes</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >4. Random Outcomes</h3>
+        <p >
             All game outcomes are determined by random number generation. No skill-based advantage is provided for any form of payment. All players have equal chances of winning or losing in any game.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">5. No Prizes or Rewards</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >5. No Prizes or Rewards</h3>
+        <p >
             Winning virtual coins does not entitle you to any real-world prizes, rewards, or compensation. Virtual coins are entertainment currency only and have no tangible value.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">6. Age Requirement - 18+ Only</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >6. Age Requirement - 18+ Only</h3>
+        <p >
             This platform is restricted to users 18 years of age and older. By confirming your age, you certify that you meet this requirement. We reserve the right to verify age at any time and terminate access for users who do not meet the age requirement.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">7. No Professional Advice</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >7. No Professional Advice</h3>
+        <p >
             Nothing on this platform constitutes professional advice, financial advice, or gambling advice. We do not provide strategies, tips, or recommendations for winning. Games are purely for entertainment.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">8. Responsible Gaming</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >8. Responsible Gaming</h3>
+        <p >
             While this is not gambling, we encourage responsible entertainment practices:
         </p>
-        <ul style="color: var(--text-secondary); margin-left: 2rem; line-height: 1.8;">
+        <ul >
             <li>Play for entertainment only</li>
             <li>Set time limits for your gaming sessions</li>
             <li>Take regular breaks</li>
@@ -79,28 +79,28 @@ include '../includes/header.php';
             <li>If you feel you have a problem with gaming, seek professional help</li>
         </ul>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">9. No Liability for Game Outcomes</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >9. No Liability for Game Outcomes</h3>
+        <p >
             <?php echo COMPANY_NAME; ?> is not liable for any outcomes of games, including losses of virtual coins. Games are provided "as is" for entertainment purposes. We are not responsible for any consequences arising from your use of the platform.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">10. Technical Issues</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >10. Technical Issues</h3>
+        <p >
             While we strive to maintain platform stability, we do not guarantee uninterrupted service. We are not liable for technical issues, bugs, or service interruptions that may affect your gaming experience.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">11. Compliance with Laws</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >11. Compliance with Laws</h3>
+        <p >
             This platform complies with all applicable laws and regulations. It is your responsibility to ensure that your use of this platform complies with local laws in your jurisdiction.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">12. Changes to Disclaimer</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >12. Changes to Disclaimer</h3>
+        <p >
             We may update this disclaimer at any time. Your continued use of the platform constitutes acceptance of any changes.
         </p>
 
-        <h3 style="color: var(--primary-color); margin-top: 2rem; margin-bottom: 1rem;">13. Contact Information</h3>
-        <p style="color: var(--text-secondary); line-height: 1.8;">
+        <h3 >13. Contact Information</h3>
+        <p >
             For questions about this disclaimer, please contact us at:
         </p>
         <p style="color: var(--text-secondary);">
