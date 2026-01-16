@@ -3,19 +3,20 @@
 // Version: 1.1
 // Last Updated: January 16, 2026
 
-// Site Configuration - Auto-detect URL with proper HTTPS detection for Railway
+// Site Configuration - Force HTTPS for Railway deployment
+// Railway serves all apps over HTTPS, so we always use HTTPS protocol
 $protocol = 'https://';
 
-// Check various HTTPS indicators
-if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'off') {
-    $protocol = 'http://';
+// Check if running on Railway (production) or localhost (development)
+if (isset($_SERVER['HTTP_HOST']) && strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
+    // Development environment - check for HTTPS
+    if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') {
+        $protocol = 'https://';
+    } else {
+        $protocol = 'http://';
+    }
 }
-if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'http') {
-    $protocol = 'http://';
-}
-if (!isset($_SERVER['HTTPS']) && $_SERVER['SERVER_PORT'] != 443) {
-    $protocol = 'http://';
-}
+// For Railway and other production environments, always use HTTPS
 
 $host = $_SERVER['HTTP_HOST'];
 $site_url = $protocol . $host;
