@@ -38,37 +38,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <h2 style="color: var(--primary-color); margin-bottom: 2rem;">Get In Touch</h2>
                 
                 <div style="margin-bottom: 2rem;">
-                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">📧 Email</h4>
-                    <a href="mailto:<?php echo COMPANY_EMAIL; ?>" style="color: var(--primary-color); text-decoration: none; font-size: 1.1rem;">
-                        <?php echo COMPANY_EMAIL; ?>
-                    </a>
-                </div>
-
-                <div style="margin-bottom: 2rem;">
-                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">📞 Phone</h4>
-                    <a href="tel:<?php echo COMPANY_PHONE; ?>" style="color: var(--primary-color); text-decoration: none; font-size: 1.1rem;">
-                        <?php echo COMPANY_PHONE; ?>
-                    </a>
-                </div>
-
-                <div style="margin-bottom: 2rem;">
-                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">🏢 Address</h4>
-                    <p style="color: var(--text-secondary);">
-                        <?php echo COMPANY_ADDRESS; ?>
-                    </p>
-                </div>
-
-                <div style="margin-bottom: 2rem;">
                     <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">🌐 Website</h4>
-                    <a href="<?php echo SITE_URL; ?>" style="color: var(--primary-color); text-decoration: none;">
+                    <a href="<?php echo SITE_URL; ?>" style="color: var(--primary-color); text-decoration: none; font-size: 1.1rem;">
                         <?php echo SITE_DOMAIN; ?>
                     </a>
                 </div>
 
-                <div style="background: rgba(255, 215, 0, 0.1); padding: 1rem; border-radius: 8px;">
+                <div style="background: rgba(255, 215, 0, 0.1); padding: 1.5rem; border-radius: 8px;">
                     <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">⏰ Response Time</h4>
                     <p style="color: var(--text-secondary); font-size: 0.9rem;">
                         We typically respond to inquiries within 24-48 hours during business days.
+                    </p>
+                </div>
+
+                <div style="background: rgba(255, 184, 0, 0.1); padding: 1.5rem; border-radius: 8px; margin-top: 1.5rem; border: 2px dashed var(--primary-color);">
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">💬 Contact Method</h4>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem;">
+                        Please use the contact form to send us your inquiries. We'll respond to your email address provided in the form.
                     </p>
                 </div>
             </div>

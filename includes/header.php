@@ -21,58 +21,7 @@
     <link rel="icon" type="image/svg+xml" href="<?php echo SITE_URL; ?>/assets/images/favicon.svg">
 </head>
 <body>
-    <!-- Age Gate Modal (if not verified) -->
-    <?php if (!is_age_verified()): ?>
-    <div id="ageGateModal" class="modal">
-        <div class="modal-content">
-            <h2>⚠️ Age Verification</h2>
-            <p>This platform is for users 18 years and older.</p>
-            <p>By clicking "I Confirm", you certify that you are 18+ years old.</p>
-            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 1.5rem;">
-                This is a 100% free-to-play entertainment platform. Virtual coins have NO real money value.
-            </p>
-            <div class="modal-buttons">
-                <button class="btn-confirm" onclick="confirmAge()">✓ I Confirm (18+)</button>
-                <button class="btn-deny" onclick="denyAge()">✗ I'm Under 18</button>
-            </div>
-        </div>
-    </div>
 
-    <script>
-        function confirmAge() {
-            // Store age verification in localStorage
-            localStorage.setItem('ageVerified', 'true');
-            // Hide the modal
-            const modal = document.getElementById('ageGateModal');
-            if (modal) {
-                modal.style.display = 'none';
-            }
-            // Also try to store in session via PHP
-            fetch('<?php echo SITE_URL; ?>/includes/verify-age.php', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ verified: true })
-            }).catch(err => console.log('Age verification logged'));
-        }
-
-        function denyAge() {
-            alert('You must be 18+ to access this platform.');
-            window.location.href = 'https://www.google.com';
-        }
-        
-        // Check if already verified
-        window.addEventListener('load', function() {
-            if (localStorage.getItem('ageVerified') === 'true') {
-                const modal = document.getElementById('ageGateModal');
-                if (modal) {
-                    modal.style.display = 'none';
-                }
-            }
-        });
-    </script>
-    <?php endif; ?>
 
     <!-- Header Navigation -->
     <header>

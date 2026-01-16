@@ -34,15 +34,6 @@
                         <li><a href="<?php echo SITE_URL; ?>/pages/responsible-gaming.php">Responsible Gaming</a></li>
                     </ul>
                 </div>
-
-                <div class="footer-section">
-                    <h4>Company</h4>
-                    <p style="color: var(--text-secondary); font-size: 0.9rem;">
-                        <strong>Legal Name:</strong><br><?php echo COMPANY_NAME; ?><br><br>
-                        <strong>Email:</strong><br><a href="mailto:<?php echo COMPANY_EMAIL; ?>" style="color: var(--primary-color);"><?php echo COMPANY_EMAIL; ?></a><br><br>
-                        <strong>Phone:</strong><br><a href="tel:<?php echo COMPANY_PHONE; ?>" style="color: var(--primary-color);"><?php echo COMPANY_PHONE; ?></a>
-                    </p>
-                </div>
             </div>
 
             <div class="footer-bottom">

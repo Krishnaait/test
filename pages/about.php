@@ -61,9 +61,6 @@ include '../includes/header.php';
         <div style="color: var(--text-secondary); line-height: 2;">
             <p><strong style="color: var(--primary-color);">Legal Name:</strong> <?php echo COMPANY_NAME; ?></p>
             <p><strong style="color: var(--primary-color);">Domain:</strong> <?php echo SITE_DOMAIN; ?></p>
-            <p><strong style="color: var(--primary-color);">Email:</strong> <a href="mailto:<?php echo COMPANY_EMAIL; ?>" style="color: var(--primary-color);"><?php echo COMPANY_EMAIL; ?></a></p>
-            <p><strong style="color: var(--primary-color);">Phone:</strong> <a href="tel:<?php echo COMPANY_PHONE; ?>" style="color: var(--primary-color);"><?php echo COMPANY_PHONE; ?></a></p>
-            <p><strong style="color: var(--primary-color);">Address:</strong> <?php echo COMPANY_ADDRESS; ?></p>
             <p><strong style="color: var(--primary-color);">CIN:</strong> <?php echo COMPANY_CIN; ?></p>
             <p><strong style="color: var(--primary-color);">GST ID:</strong> <?php echo COMPANY_GST; ?></p>
         </div>
