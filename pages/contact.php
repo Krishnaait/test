@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <!-- Casino Lounge Header Image -->
     <div style="margin-bottom: 3rem; border-radius: 20px; overflow: hidden; border: 3px solid var(--gold-primary); box-shadow: var(--shadow-gold);">
-        <img src="<?php echo SITE_URL; ?>/assets/images/casino_bar_lounge.jpg" alt="Casino Lounge" style="width: 100%; height: 350px; object-fit: cover;">
+        <img src="<?php echo SITE_URL; ?>/assets/images/casino_bar_lounge.webp" alt="Casino Lounge" style="width: 100%; height: 350px; object-fit: cover;">
     </div>
 
     <div class="grid grid-2">

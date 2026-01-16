@@ -22,7 +22,7 @@ include '../includes/header.php';
     <div class="grid grid-2">
         <!-- Mines Game -->
         <div class="card game-card">
-            <img src="<?php echo SITE_URL; ?>/assets/images/game_mines.jpg" alt="Mines Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
+            <img src="<?php echo SITE_URL; ?>/assets/images/game_mines.webp" alt="Mines Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
             <h3>💣 Mines</h3>
             <span class="game-limit">PLAY LIMIT</span>
             <span class="game-free">Free Play</span>
@@ -34,7 +34,7 @@ include '../includes/header.php';
 
         <!-- Dice Game -->
         <div class="card game-card">
-            <img src="<?php echo SITE_URL; ?>/assets/images/game_dice.jpg" alt="Dice Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
+            <img src="<?php echo SITE_URL; ?>/assets/images/game_dice.webp" alt="Dice Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
             <h3>🎲 Dice</h3>
             <span class="game-limit">PLAY LIMIT</span>
             <span class="game-free">Free Play</span>
@@ -46,7 +46,7 @@ include '../includes/header.php';
 
         <!-- Chicken Game -->
         <div class="card game-card">
-            <img src="<?php echo SITE_URL; ?>/assets/images/live_casino_table.jpg" alt="Chicken Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
+            <img src="<?php echo SITE_URL; ?>/assets/images/live_casino_table.webp" alt="Chicken Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
             <h3>🐔 Chicken</h3>
             <span class="game-limit">PLAY LIMIT</span>
             <span class="game-free">Free Play</span>
@@ -58,7 +58,7 @@ include '../includes/header.php';
 
         <!-- Plinko Game -->
         <div class="card game-card">
-            <img src="<?php echo SITE_URL; ?>/assets/images/game_plinko.jpg" alt="Plinko Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
+            <img src="<?php echo SITE_URL; ?>/assets/images/game_plinko.webp" alt="Plinko Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1rem;">
             <h3>⭕ Plinko</h3>
             <span class="game-limit">PLAY LIMIT</span>
             <span class="game-free">Free Play</span>

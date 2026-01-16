@@ -17,7 +17,7 @@
     
     <title><?php echo isset($page_title) ? $page_title . ' - ' . SITE_NAME : SITE_NAME; ?></title>
     
-    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/css/style.css?v=8.0">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/css/style.css?v=9.0">
     <link rel="icon" type="image/svg+xml" href="<?php echo SITE_URL; ?>/assets/images/favicon.svg">
 </head>
 <body>
@@ -27,7 +27,7 @@
     <header>
         <div class="header-container">
             <a href="<?php echo SITE_URL; ?>" class="logo">
-                <img src="<?php echo SITE_URL; ?>/assets/images/logo.png" alt="<?php echo SITE_NAME; ?>" class="logo-image">
+                <img src="<?php echo SITE_URL; ?>/assets/images/logo.webp" alt="<?php echo SITE_NAME; ?>" class="logo-image">
                 <span><?php echo SITE_NAME; ?></span>
             </a>
             
