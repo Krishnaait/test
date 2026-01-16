@@ -11,6 +11,11 @@ include '../includes/header.php';
         <strong>⚠️ IMPORTANT:</strong> This is a 100% free-to-play entertainment platform. Virtual coins have NO real money value. All games are for entertainment purposes only. Must be 18+ to play.
     </div>
 
+    <!-- Featured Casino Image -->
+    <div style="margin-bottom: 3rem; border-radius: 20px; overflow: hidden; border: 3px solid var(--gold-primary); box-shadow: var(--shadow-gold);">
+        <img src="<?php echo SITE_URL; ?>/assets/images/casino_entrance_1.jpg" alt="Casino Gaming Floor" style="width: 100%; height: 400px; object-fit: cover;">
+    </div>
+
     <div class="grid grid-2">
         <!-- Mines Game -->
         <div class="card game-card">
@@ -50,7 +55,7 @@ include '../includes/header.php';
 
         <!-- Chicken Game -->
         <div class="card game-card">
-            <img src="<?php echo SITE_URL; ?>/assets/images/roulette_table_close_up.jpg" alt="Chicken Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1.5rem;">
+            <img src="<?php echo SITE_URL; ?>/assets/images/live_casino_table.jpg" alt="Chicken Game" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1.5rem;">
             <h3 style="color: var(--primary-color); font-size: 1.5rem;">Chicken</h3>
             <p style="color: var(--text-secondary); margin-bottom: 1rem;">
                 Guide the chicken to victory and collect your rewards! Fun and engaging gameplay.
@@ -83,6 +88,44 @@ include '../includes/header.php';
             </div>
             <a href="../games/plinko.php" class="btn btn-primary" style="width: 100%;">🎯 Play Plinko</a>
         </div>
+    </div>
+
+    <!-- Casino Atmosphere Section -->
+    <div style="margin-top: 3rem;">
+        <h2 style="text-align: center; color: var(--primary-color); margin-bottom: 2rem;">🌟 Premium Gaming Atmosphere</h2>
+        <div class="grid grid-3" style="gap: 1.5rem;">
+            <div class="card" style="padding: 0; overflow: hidden;">
+                <img src="<?php echo SITE_URL; ?>/assets/images/luxurious_poker_room.jpg" alt="Poker Room" style="width: 100%; height: 180px; object-fit: cover;">
+                <div style="padding: 1rem; text-align: center;">
+                    <h4 style="color: var(--primary-color);">🎩 Luxury Rooms</h4>
+                </div>
+            </div>
+
+            <div class="card" style="padding: 0; overflow: hidden;">
+                <img src="<?php echo SITE_URL; ?>/assets/images/roulette_table_close_up.jpg" alt="Roulette Table" style="width: 100%; height: 180px; object-fit: cover;">
+                <div style="padding: 1rem; text-align: center;">
+                    <h4 style="color: var(--primary-color);">🎰 Real Tables</h4>
+                </div>
+            </div>
+
+            <div class="card" style="padding: 0; overflow: hidden;">
+                <img src="<?php echo SITE_URL; ?>/assets/images/modern_casino_interior.jpg" alt="Modern Interior" style="width: 100%; height: 180px; object-fit: cover;">
+                <div style="padding: 1rem; text-align: center;">
+                    <h4 style="color: var(--primary-color);">✨ Modern Design</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="card" style="margin-top: 3rem; text-align: center; background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 107, 53, 0.1) 100%); border: 2px solid var(--primary-color);">
+        <h2 style="color: var(--primary-color); margin-bottom: 1rem;">🎊 Ready for Action?</h2>
+        <p style="font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+            Choose your favorite game above and start playing now! All games are 100% free with no registration required.
+        </p>
+        <p style="font-size: 0.9rem; color: var(--text-secondary);">
+            Remember: This is entertainment only. Virtual coins have no real money value.
+        </p>
     </div>
 </section>
 
