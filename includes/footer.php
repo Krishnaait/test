@@ -11,7 +11,7 @@
                         <h3 style="color: var(--primary-color); margin: 0; font-size: 1.5rem;"><?php echo SITE_NAME; ?></h3>
                     </div>
                     <p style="color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.6;">
-                        Experience the thrill of premium casino games in a 100% free-to-play entertainment platform. No real money, just pure fun and excitement.
+                        A premium online gaming platform offering free-to-play casino-style entertainment. No real money involved. Just pure digital fun and excitement.
                     </p>
                     <div style="background: rgba(255, 184, 0, 0.1); padding: 1rem; border-radius: 8px; border-left: 3px solid var(--primary-color);">
                         <p style="font-size: 0.85rem; color: var(--text-secondary); margin: 0;">

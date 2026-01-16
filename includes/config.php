@@ -27,9 +27,8 @@ define('SITE_DOMAIN', 'apnafantasy.com');
 
 // Company Information
 define('COMPANY_NAME', 'Apna Fantasy Entertainment Pvt. Ltd.');
-define('COMPANY_ADDRESS', 'Your Company Address');
 define('COMPANY_EMAIL', 'support@apnafantasy.com');
-define('COMPANY_PHONE', '+91-XXXXXXXXXX');
+// Phone removed - online platform only
 define('COMPANY_CIN', 'U74999XX0000PTC000000');
 define('COMPANY_GST', 'XX AAXXX0000X1Z0');
 

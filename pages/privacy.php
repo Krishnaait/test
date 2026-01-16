@@ -123,7 +123,6 @@ include '../includes/header.php';
         </p>
         <p style="color: var(--text-secondary);">
             <strong style="color: var(--primary-color);">Email:</strong> <a href="mailto:<?php echo COMPANY_EMAIL; ?>" style="color: var(--primary-color);"><?php echo COMPANY_EMAIL; ?></a><br>
-            <strong style="color: var(--primary-color);">Phone:</strong> <a href="tel:<?php echo COMPANY_PHONE; ?>" style="color: var(--primary-color);"><?php echo COMPANY_PHONE; ?></a><br>
             <strong style="color: var(--primary-color);">Address:</strong> <?php echo COMPANY_ADDRESS; ?>
         </p>
 
