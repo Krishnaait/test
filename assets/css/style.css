@@ -66,6 +66,8 @@ body {
     line-height: 1.6;
     min-height: 100vh;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Background Pattern */
@@ -179,9 +181,11 @@ nav a:hover::after {
    MAIN CONTENT
 ============================================================ */
 main {
+    flex: 1;
     max-width: 1400px;
     margin: 0 auto;
     padding: 2rem;
+    width: 100%;
 }
 
 /* ============================================================
