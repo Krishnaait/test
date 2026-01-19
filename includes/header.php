@@ -7,17 +7,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Apna Fantasy - 100% Free-to-Play Entertainment Gaming Platform">
+    <meta name="description" content="AQUASTRUCT - 100% Free-to-Play Entertainment Gaming Platform">
     <meta name="keywords" content="games, casino, entertainment, free-to-play, mines, dice, plinko">
-    <meta name="author" content="Apna Fantasy Entertainment">
-    <meta property="og:title" content="Apna Fantasy - Play Free Casino Games">
+    <meta name="author" content="AQUASTRUCT CONSTRUCTION PRIVATE LIMITED">
+    <meta property="og:title" content="AQUASTRUCT - Play Free Casino Games">
     <meta property="og:description" content="100% Free-to-Play Entertainment Platform">
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo SITE_URL; ?>">
     
     <title><?php echo isset($page_title) ? $page_title . ' - ' . SITE_NAME : SITE_NAME; ?></title>
     
-    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/css/style.css?v=10.0">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/css/style.css?v=11.0">
     <link rel="icon" type="image/svg+xml" href="<?php echo SITE_URL; ?>/assets/images/favicon.svg">
 </head>
 <body>

@@ -1,5 +1,5 @@
 <?php
-// Apna Fantasy - Configuration File
+// AQUASTRUCT - Configuration File
 // Version: 1.1
 // Last Updated: January 16, 2026
 
@@ -21,16 +21,17 @@ if (isset($_SERVER['HTTP_HOST']) && strpos($_SERVER['HTTP_HOST'], 'localhost') !
 $host = $_SERVER['HTTP_HOST'];
 $site_url = $protocol . $host;
 
-define('SITE_NAME', 'Apna Fantasy');
+define('SITE_NAME', 'AQUASTRUCT');
 define('SITE_URL', $site_url);
-define('SITE_DOMAIN', 'apnafantasy.com');
+define('SITE_DOMAIN', 'aquastruct.com');
 
 // Company Information
-define('COMPANY_NAME', 'Apna Fantasy Entertainment Pvt. Ltd.');
-define('COMPANY_EMAIL', 'support@apnafantasy.com');
+define('COMPANY_NAME', 'AQUASTRUCT CONSTRUCTION PRIVATE LIMITED');
+define('COMPANY_EMAIL', 'Support@apnafantasy.com');
 // Phone removed - online platform only
-define('COMPANY_CIN', 'U74999XX0000PTC000000');
-define('COMPANY_GST', 'XX AAXXX0000X1Z0');
+define('COMPANY_CIN', 'U41001JK2023PTC014834');
+define('COMPANY_PAN', 'AAZCA0661R');
+define('COMPANY_ADDRESS', 'C/O LAXMAN DASS, KHANDAK, PANTHAL KATRA, Panthal, Udhampur, Jammu and Kashmir 182320, India');
 
 // Game Settings
 define('INITIAL_COINS', 1000);
@@ -48,7 +49,7 @@ define('ENTERTAINMENT_MESSAGE', '⚠️ IMPORTANT: This is a 100% free-to-play e
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'apnafantasy');
+define('DB_NAME', 'aquastruct');
 
 // Session Settings - Configure BEFORE starting session
 ini_set('session.cookie_httponly', 1);

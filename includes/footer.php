@@ -15,7 +15,9 @@
                     </p>
                     <div class="footer-company-details">
                         <p><strong>CIN:</strong> <?php echo COMPANY_CIN; ?></p>
-                        <p><strong>GST:</strong> <?php echo COMPANY_GST; ?></p>
+                        <p><strong>PAN:</strong> <?php echo COMPANY_PAN; ?></p>
+                        <p><strong>Address:</strong> <?php echo COMPANY_ADDRESS; ?></p>
+                        <p><strong>Email:</strong> <?php echo COMPANY_EMAIL; ?></p>
                     </div>
                 </div>
 

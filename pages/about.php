@@ -118,7 +118,9 @@ include '../includes/header.php';
             <p><strong style="color: var(--primary-color);">Legal Name:</strong> <?php echo COMPANY_NAME; ?></p>
             <p><strong style="color: var(--primary-color);">Domain:</strong> <?php echo SITE_DOMAIN; ?></p>
             <p><strong style="color: var(--primary-color);">CIN:</strong> <?php echo COMPANY_CIN; ?></p>
-            <p><strong style="color: var(--primary-color);">GST ID:</strong> <?php echo COMPANY_GST; ?></p>
+            <p><strong style="color: var(--primary-color);">PAN:</strong> <?php echo COMPANY_PAN; ?></p>
+            <p><strong style="color: var(--primary-color);">Address:</strong> <?php echo COMPANY_ADDRESS; ?></p>
+            <p><strong style="color: var(--primary-color);">Email:</strong> <?php echo COMPANY_EMAIL; ?></p>
         </div>
     </div>
 

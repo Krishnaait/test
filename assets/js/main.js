@@ -1,5 +1,5 @@
-// Apna Fantasy - Main JavaScript
-// Version: 1.0 | Last Updated: January 16, 2026
+// AQUASTRUCT - Main JavaScript
+// Version: 1.0 | Last Updated: January 19, 2026
 
 // Mobile Menu Toggle
 function toggleMenu() {
