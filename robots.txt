@@ -1,15 +1,21 @@
-# Apna Fantasy - Robots.txt
-# Version: 1.0
-# Last Updated: January 16, 2026
+# AQUASTRUCT - Robots.txt
+# Version: 2.0
+# Last Updated: January 19, 2026
 
 User-agent: *
 Allow: /
+
+# Disallow backend includes
 Disallow: /includes/
-Disallow: /assets/js/
-Disallow: *.php$
+
+# Allow all public pages
+Allow: /games/
+Allow: /pages/
+Allow: /assets/css/
+Allow: /assets/images/
 
 # Sitemap location
-Sitemap: https://test-production-9b93.up.railway.app/sitemap.xml
+Sitemap: https://apnafantasy.com/sitemap.xml
 
 # Crawl-delay
-Crawl-delay: 10
+Crawl-delay: 5
