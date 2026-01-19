@@ -49,6 +49,7 @@
                     <ul class="footer-links">
                         <li><a href="<?php echo SITE_URL; ?>/pages/terms.php">Terms & Conditions</a></li>
                         <li><a href="<?php echo SITE_URL; ?>/pages/privacy.php">Privacy Policy</a></li>
+                        <li><a href="<?php echo SITE_URL; ?>/pages/fair-policy.php">Fair Policy</a></li>
                         <li><a href="<?php echo SITE_URL; ?>/pages/disclaimer.php">Disclaimer</a></li>
                         <li><a href="<?php echo SITE_URL; ?>/pages/community-rules.php">Community Rules</a></li>
                         <li><a href="<?php echo SITE_URL; ?>/pages/responsible-gaming.php">Responsible Gaming</a></li>
